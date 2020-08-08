@@ -5,9 +5,9 @@
     <parent>
         <groupId>com.github.sfg-beer-works</groupId>
         <artifactId>sfg-brewery-bom</artifactId>
-        <version>1.0.17</version>
+        <version>1.0.22</version>
     </parent>
-
+    <groupId>guru.springframework</groupId>
     <artifactId>mssc-beer-order-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mssc-beer-order-service</name>
@@ -17,17 +17,17 @@
         <dependency>
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
-            <version>${jaxb.version}</version>
+           <!-- <version>${jaxb.version}</version>-->
         </dependency>
         <dependency>
             <groupId>com.sun.xml.bind</groupId>
             <artifactId>jaxb-core</artifactId>
-            <version>${jaxb.version}</version>
+           <!-- <version>${jaxb.version}</version>-->
         </dependency>
         <dependency>
             <groupId>com.sun.xml.bind</groupId>
             <artifactId>jaxb-impl</artifactId>
-            <version>${jaxb.version}</version>
+            <!--<version>${jaxb.version}</version>-->
         </dependency>
     </dependencies>
 </project>
